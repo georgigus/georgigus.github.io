@@ -1,0 +1,301 @@
+body
+{
+width: 1440px;
+height: 994px;
+flex-shrink: 0;
+background: #CBA0ED;
+}
+
+a
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bigtext
+{
+    color: #000;
+
+    /* shadow2 */
+    text-shadow: 8px 9px 7px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.523%; /* 88.655px */
+    text-transform: capitalize;    
+}
+
+.middletext
+{
+    color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 138.523%; /* 44.327px */
+text-transform: capitalize;
+}
+
+.smalltext
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.523%; /* 44.327px */
+}
+
+.aboutme
+{
+    color: #000;
+
+/* shadow2 */
+text-shadow: 8px 9px 7px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 138.523%; /* 88.655px */
+text-transform: capitalize;
+}
+
+
+.maininfo
+{
+    color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 138.523%; /* 44.327px */
+}
+
+header
+{
+    /*background-color:#031eec;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Logo
+{
+/*background-color: aqua;*/
+}
+
+.Menu
+{
+    /*background-color: aquamarine;*/
+    display: flex;list-style-type: none;
+    gap: 40px;
+}
+
+.LoginIcon
+{
+    /*background-color: azure;*/
+}
+
+.Menu a
+{
+    text-decoration: none;
+    padding-right: 100px;
+}
+
+.firstdiv
+{
+    display: flex;
+}
+
+.text-section
+{
+    width: 50%;
+    padding-left: 200px ;
+    padding-top: 70px;
+}
+
+.Mainimage
+{
+    z-index: 1;
+    position: relative;
+    left:80px;
+}
+
+.maininfo
+{
+    margin-left: 50px;
+}
+
+.orderbutton
+{
+    cursor:pointer;
+   width: 200px;
+   height: 77px;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border: 1px solid #2A218D;
+   background: #5F53EC;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 138.523%; /* 44.327px */
+}
+
+.button-section
+{
+    position: relative;
+    right: 1050px;
+    top: 615px;
+}
+
+.pattern
+{
+    position: relative;
+    bottom: 232px;
+    z-index: 0;
+}
+
+.Mainimage
+{
+    position: relative;
+    top: 74px;
+    z-index: 1;
+}
+
+.aboutme
+{
+    margin-left: 570px;
+    /*background-color: purple;*/
+}
+
+
+.maininfo
+{
+    /*background-color: purple;*/
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    left: 150px;
+}
+
+.hacker
+{
+    /*background-color: purple;*/
+    position: relative;
+    left: 900px;
+}
+
+.my-works
+{
+    color: #000;
+
+/* shadow2 */
+text-shadow: 8px 9px 7px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 138.523%; /* 88.655px */
+text-transform: capitalize;
+}
+
+.my-works-text
+{
+    /*background-color: purple;*/
+    position: relative;
+    left: 585px;
+    bottom: 50px;
+}
+
+.img1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    position: relative;
+    left: 23px;
+}
+
+.line1
+{
+    position: relative;
+    bottom: 890px;
+    left: 20px;
+}
+
+.line2
+{
+    position: relative;
+    bottom: 1750px;
+    left: 20px;
+}
+
+.line3
+{
+    position: relative;
+    left: 20px;
+}
+
+.myteam
+{
+    display: flex;
+    position: relative;
+    left: 200px;
+    gap: 90px;
+    top: 230px;
+}
+
+.description
+{
+    display: flex;
+    position: relative;
+    left:200px;
+    gap: 90px;
+    top: 300px;
+}
+
+.my-team-text
+{
+    color: #000;
+
+/* shadow2 */
+    text-shadow: 8px 9px 7px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.523%; /* 88.655px */
+    text-transform: capitalize;
+    position: relative;
+    left: 600px;
+    top: 180px;
+}
+
+.line3
+{
+    position: relative;
+    top: 130px;
+}
+
+.final-part1
+{
+    position: relative;
+    top: 420px;
+    width: 1440px;
+    height: 18px;
+    flex-shrink: 0;
+    right: 20px;
+    padding-top: 30px;
+}
+
+
+
